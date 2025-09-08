@@ -29,7 +29,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   background: 
-    linear-gradient(rgba(255, 255, 255, 0.139), rgb(255, 255, 255)), 
+    linear-gradient(rgba(255, 255, 255, 0.772), rgb(255, 255, 255)), 
     url("https://przekraczajacgranice.pl/wp-content/uploads/2019/01/elblag-56-kopiowanie.jpg") no-repeat center center fixed;
   background-size: cover;
 
@@ -56,7 +56,7 @@ body {
   top: 0; 
   left: 0; 
   right: 0;
-  background: rgba(255, 255, 255, 0.6); /* semi-transparent */
+  background: rgba(255, 255, 255, 0.443); /* semi-transparent */
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(10px); /* apply blur effect */

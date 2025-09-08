@@ -6,7 +6,7 @@
   --gray-50:  #f9fafb;
 
   /* Sky */
-  --sky-50:  #eeeeee; /* Background color */
+  --sky-50:  #e8e8e8; /* Background color */
   --sky-100: #fafdff;
   --sky-900: #0c4a6e;
   --sky-950: #021843;
@@ -23,13 +23,16 @@
   --shadow-dark: #00000074;
 }
 
-/* ----------------- Base ----------------- */
 html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background: var(--sky-50);
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.139), rgb(255, 255, 255)), 
+    url("https://radioolsztyn.pl/wp-content/uploads/2024/11/Elblag.jpg") no-repeat center center fixed;
+  background-size: cover;
+
   color: var(--gray-900);
 }
 
@@ -50,10 +53,14 @@ body {
 /* ----------------- Header ----------------- */
 .site-header {
   position: fixed;
-  top: 0; left: 0; right: 0;
-  background: var(--sky-100);
-  border-bottom: 1px solid #ffffff;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  background: rgba(255, 255, 255, 0.6); /* semi-transparent */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px); /* apply blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
   z-index: 50;
 }
 .header-inner {

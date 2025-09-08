@@ -217,38 +217,47 @@ body {
 }
 
 
-/* ----------------- Footer ----------------- */
+/* ----------------- Footer  ----------------- */
 .site-footer {
-  background: var(--gray-50);
-  border-top: 1px solid var(--gray-200);
+  background: rgba(255, 255, 255, 0.315);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 0px solid rgba(255, 255, 255, 0.3);
   margin-top: 3rem;
-  color: var(--gray-700);
+  color: var(--gray-100);
+  padding: 1rem 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 0px;
 }
+
 .footer-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.5rem;
-  padding: 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
 }
+
 .footer-title {
-  font-weight: 700;
-  margin-bottom: 0.5rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  color: #323232;
 }
+
 .small {
   font-size: 0.875rem;
+  color: #000000;
 }
+
 .footer-grid a {
-  color: var(--gray-700);
+  color: #000000;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
+
 .footer-grid a:hover {
   color: var(--accent-3);
+  transform: translateY(-2px);
 }
-.socials {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.5rem;
-}
+
 
 
 /* ----------------- Responsive Design ----------------- */

@@ -29,8 +29,8 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   background: 
-    linear-gradient(rgba(255, 255, 255, 0.772), rgb(255, 255, 255)), 
-    url("https://przekraczajacgranice.pl/wp-content/uploads/2019/01/elblag-56-kopiowanie.jpg") no-repeat center center fixed;
+    linear-gradient(rgb(255 255 255 / 36%), rgb(255, 255, 255)), 
+    url("https://res.cloudinary.com/delius-klasing/image/upload/v1635514861/boot/e813990efdf941f3293b70e8a9e3a270bab570e4.jpg") no-repeat center center fixed;
   background-size: cover;
 
   color: var(--gray-900);

@@ -29,7 +29,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   background: 
-    linear-gradient(rgb(255 255 255 / 36%), rgb(255 255 255 / 98%)), 
+    linear-gradient(rgb(255 255 255 / 36%), rgb(255 255 255 / 70%),rgb(155 199 255 / 98%)), 
     url("https://res.cloudinary.com/delius-klasing/image/upload/v1635514861/boot/e813990efdf941f3293b70e8a9e3a270bab570e4.jpg") no-repeat center center fixed;
   background-size: cover;
 
